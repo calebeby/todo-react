@@ -77,7 +77,7 @@ class TodoList extends Component {
     return (
       <div class="todolist">
         <h1>Todos</h1>
-        <form onSubmit={this.handleSubmit} id="todoForm">
+        <form onSubmit={this.handleSubmit} class="todoForm">
           <input type="text" placeholder="What needs to be done?" value={this.state.description} />
         </form>
         <ul class="todos">
